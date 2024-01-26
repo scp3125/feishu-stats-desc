@@ -24,7 +24,7 @@ export default function Home() {
   const [table, setTable] = useState<ITable | null>(null);
   const [view, setView] = useState<IView | null>(null);
   // const [field, setField] = useState<IField | null>(null);
-  const [datas, setDatas] = useState<(number | null)[]>([]);
+  const [datas, setDatas] = useState<number[]>([]);
 
   const router = useRouter();
   const locale = useLocale();
@@ -45,14 +45,13 @@ export default function Home() {
       return;
     }
     const records = await getAllRecords(table, values.viewId);
-    const newDatas = records.map((record) => {
+    const newDatas = new Array<number>();
+    for (const record of records) {
       const value = record.fields[values.fieldId];
       if (checkers.isNumber(value)) {
-        return value;
-      } else {
-        return null;
+        newDatas.push(value);
       }
-    });
+    }
     setDatas(newDatas);
   };
 
