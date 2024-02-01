@@ -6,28 +6,108 @@
   "field": "Field",
   "field_required": "Please select a field",
   "calculate": "Calculate",
-  "stats_desc": "Stats Desc",
+  "stats_desc": "Stats Description",
 
-  "count": "Count",
-  "sum": "Sum",
-  "product": "Product",
-  "max": "Max",
-  "min": "Min",
-  "mean": "Mean",
-  "median": "Median",
-  "mode": "Mode",
-  "range": "Range",
-  "variance": "Variance",
-  "sample_variance": "Sample Variance",
-  "standard_deviation": "Standard Deviation",
-  "sample_standard_deviation": "Sample Standard Deviation",
-  "median_absolute_deviation": "Median Absolute Deviation",
-  "interquartile_range": "Interquartile Range",
-  "harmonic_mean": "Harmonic Mean",
-  "geometric_mean": "Geometric Mean",
-  "root_mean_square": "Root Mean Square",
-  "sample_skewness": "Sample Skewness",
-  "sample_kurtosis": "Sample Kurtosis",
+  "count": {
+    "name": "Count",
+    "desc": "The total number of items in a dataset. It gives an idea of the size of the dataset.",
+    "url": "https://en.wikipedia.org/wiki/Count"
+  },
+  "sum": {
+    "name": "Sum",
+    "desc": "The total sum of all numerical values in a dataset. Useful for understanding the total magnitude of the data.",
+    "url": "https://en.wikipedia.org/wiki/Summation"
+  },
+  "product": {
+    "name": "Product",
+    "desc": "The result of multiplying a set of numbers together. Shows the compounded effect of data points.",
+    "url": "https://en.wikipedia.org/wiki/Product_(mathematics)"
+  },
+  "max": {
+    "name": "Max",
+    "desc": "The largest number in a dataset. Indicates the upper limit of the data.",
+    "url": "https://en.wikipedia.org/wiki/Maximal_and_minimal_elements"
+  },
+  "min": {
+    "name": "Min",
+    "desc": "The smallest number in a dataset. Shows the lower limit of the data.",
+    "url": "https://en.wikipedia.org/wiki/Maximal_and_minimal_elements"
+  },
+  "mean": {
+    "name": "Mean",
+    "desc": "The average of a dataset, found by dividing the sum of all numbers by the count of numbers. Helps indicate the central tendency.",
+    "url": "https://en.wikipedia.org/wiki/Arithmetic_mean"
+  },
+  "median": {
+    "name": "Median",
+    "desc": "The middle value in a dataset when it is ordered in ascending or descending order. A measure of central tendency that is not skewed by outliers.",
+    "url": "https://en.wikipedia.org/wiki/Median"
+  },
+  "mode": {
+    "name": "Mode",
+    "desc": "The value that appears most frequently in a dataset. Indicates the most common value.",
+    "url": "https://en.wikipedia.org/wiki/Mode_(statistics)"
+  },
+  "range": {
+    "name": "Range",
+    "desc": "The difference between the largest and smallest values in a dataset. Measures the spread of the data.",
+    "url": "https://en.wikipedia.org/wiki/Range_(statistics)"
+  },
+  "variance": {
+    "name": "Variance",
+    "desc": "The average of the squared differences from the mean. Measures how spread out the data is around the mean.",
+    "url": "https://en.wikipedia.org/wiki/Variance"
+  },
+  "sample_variance": {
+    "name": "Sample Variance",
+    "desc": "Similar to variance, but for a sample subset of a population. Provides a measure of the spread within the sample data.",
+    "url": "https://en.wikipedia.org/wiki/Variance#Sample_variance"
+  },
+  "standard_deviation": {
+    "name": "Standard Deviation",
+    "desc": "The square root of the variance. Measures the amount of variation or dispersion in a set of values.",
+    "url": "https://en.wikipedia.org/wiki/Standard_deviation"
+  },
+  "sample_standard_deviation": {
+    "name": "Sample Standard Deviation",
+    "desc": "The standard deviation calculated for a sample of a population. Indicates the variability within the sample.",
+    "url": "https://en.wikipedia.org/wiki/Standard_deviation#Corrected_sample_standard_deviation"
+  },
+  "median_absolute_deviation": {
+    "name": "Median Absolute Deviation",
+    "desc": "The median of the absolute deviations from the dataset's median. A robust measure of variability.",
+    "url": "https://en.wikipedia.org/wiki/Median_absolute_deviation"
+  },
+  "interquartile_range": {
+    "name": "Interquartile Range",
+    "desc": "The difference between the 75th and 25th percentiles. Measures the spread of the middle 50% of data.",
+    "url": "https://en.wikipedia.org/wiki/Interquartile_range"
+  },
+  "harmonic_mean": {
+    "name": "Harmonic Mean",
+    "desc": "The reciprocal of the average of the reciprocals of the data set. Useful for rates and ratios.",
+    "url": "https://en.wikipedia.org/wiki/Harmonic_mean"
+  },
+  "geometric_mean": {
+    "name": "Geometric Mean",
+    "desc": "The nth root of the product of n numbers. Useful for sets of numbers whose values are meant to be multiplied together or are exponential in nature.",
+    "url": "https://en.wikipedia.org/wiki/Geometric_mean"
+  },
+  "root_mean_square": {
+    "name": "Root Mean Square",
+    "desc": "The square root of the average of the squares of the numbers. Measures the magnitude of a set of numbers.",
+    "url": "https://en.wikipedia.org/wiki/Root_mean_square"
+  },
+  "sample_skewness": {
+    "name": "Sample Skewness",
+    "desc": "A measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. Indicates how much the sample leans towards one side.",
+    "url": "https://en.wikipedia.org/wiki/Skewness"
+  },
+  "sample_kurtosis": {
+    "name": "Sample Kurtosis",
+    "desc": "A measure of the 'tailedness' of the probability distribution of a real-valued random variable. Indicates how sharp or flat the distribution is compared to a normal distribution.",
+    "url": "https://en.wikipedia.org/wiki/Kurtosis"
+  },
 
   "need_gt_zero": "Must be greater than zero",
   "need_gte_zero": "Must be greater than or equal to zero"

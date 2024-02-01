@@ -8,25 +8,101 @@
   "calculate": "计算",
   "stats_desc": "统计描述",
 
-  "count": "计数",
-  "sum": "求和",
-  "max": "最大值",
-  "min": "最小值",
-  "mean": "平均数",
-  "median": "中位数",
-  "mode": "众数",
-  "range": "极差",
-  "variance": "方差",
-  "sample_variance": "样本方差",
-  "standard_deviation": "标准差",
-  "sample_standard_deviation": "样本标准差",
-  "median_absolute_deviation": "中位数绝对偏差",
-  "interquartile_range": "四分位数间距",
-  "harmonic_mean": "调和平均数",
-  "geometric_mean": "几何平均数",
-  "root_mean_square": "均方根",
-  "sample_skewness": "样本偏度",
-  "sample_kurtosis": "样本峰度",
+  "count": {
+    "name": "总数",
+    "desc": "总括合计的数目。这个指标用于了解一共有多少项数据。",
+    "url": "https://baike.baidu.com/item/%E6%80%BB%E6%95%B0"
+  },
+  "sum": {
+    "name": "求和",
+    "desc": "两个或两个以上数字相加的总数。用于计算数据的总量。",
+    "url": "https://baike.baidu.com/item/%E6%B1%82%E5%92%8C"
+  },
+  "max": {
+    "name": "最大值",
+    "desc": "一组数据中最大的那个数。反映了数据范围的上限。",
+    "url": "https://baike.baidu.com/item/%E6%9C%80%E5%A4%A7%E5%80%BC"
+  },
+  "min": {
+    "name": "最小值",
+    "desc": "一组数据中最小的那个数。显示了数据范围的下限。",
+    "url": "https://baike.baidu.com/item/%E6%9C%80%E5%B0%8F%E5%80%BC"
+  },
+  "mean": {
+    "name": "平均值",
+    "desc": "一组数据的总和除以这组数据的个数。帮助我们了解数据的一般水平。",
+    "url": "https://baike.baidu.com/item/%E5%B9%B3%E5%9D%87%E5%80%BC"
+  },
+  "median": {
+    "name": "中位数",
+    "desc": "将一组数据按照从小到大的顺序排列，处于中间位置的那个数。这个指标用来反映数据的中心位置。",
+    "url": "https://baike.baidu.com/item/%E4%B8%AD%E4%BD%8D%E6%95%B0"
+  },
+  "mode": {
+    "name": "众数",
+    "desc": "一组数据中出现次数最多的数。反映了数据集中的趋势。",
+    "url": "https://baike.baidu.com/item/%E4%BC%97%E6%95%B0"
+  },
+  "range": {
+    "name": "极差",
+    "desc": "一组数据中最大值与最小值之间的差。用来衡量数据的波动范围。",
+    "url": "https://baike.baidu.com/item/%E6%9E%81%E5%B7%AE/975743?fromModule=disambiguation"
+  },
+  "variance": {
+    "name": "方差",
+    "desc": "一组数据与其平均数之差的平方和的平均数。反映了数据的波动程度。",
+    "url": "https://baike.baidu.com/item/%E6%96%B9%E5%B7%AE"
+  },
+  "sample_variance": {
+    "name": "样本方差",
+    "desc": "样本方差是样本各数据与样本均值之差的平方和的平均数。衡量样本数据波动的一个指标。",
+    "url": "https://baike.baidu.com/item/%E6%A0%B7%E6%9C%AC%E6%96%B9%E5%B7%AE"
+  },
+  "standard_deviation": {
+    "name": "标准差",
+    "desc": "方差的算术平方根。用于表示数据分布的紧密程度。",
+    "url": "https://baike.baidu.com/item/%E6%A0%87%E5%87%86%E5%B7%AE"
+  },
+  "sample_standard_deviation": {
+    "name": "样本标准差",
+    "desc": "样本标准差是样本各数据与样本均值之差的平方和的平均数的算术平方根。反映样本数据分散度。",
+    "url": "https://baike.baidu.com/item/%E6%A0%B7%E6%9C%AC%E6%A0%87%E5%87%86%E5%B7%AE"
+  },
+  "median_absolute_deviation": {
+    "name": "中位数绝对偏差",
+    "desc": "一组数据中各数据与中位数的差的绝对值的中位数。衡量数据偏离中位数的程度。",
+    "url": "https://blog.csdn.net/qq_32649321/article/details/118193970"
+  },
+  "interquartile_range": {
+    "name": "四分位数间距",
+    "desc": "四分位数间距是第三四分位数与第一四分位数之差。用于描述数据的分散情况而不受极端值的影响。",
+    "url": "https://baike.baidu.com/item/%E5%9B%9B%E5%88%86%E4%BD%8D%E6%95%B0%E9%97%B4%E8%B7%9D"
+  },
+  "harmonic_mean": {
+    "name": "调和平均数",
+    "desc": "调和平均数是倒数的算术平均数的倒数。适用于处理速率或比率的平均。",
+    "url": "https://baike.baidu.com/item/%E8%B0%83%E5%92%8C%E5%B9%B3%E5%9D%87%E6%95%B0"
+  },
+  "geometric_mean": {
+    "name": "几何平均数",
+    "desc": "几何平均数是一组数据的乘积的n次方根。适用于处理成倍增长的平均。",
+    "url": "https://baike.baidu.com/item/%E5%87%A0%E4%BD%95%E5%B9%B3%E5%9D%87%E6%95%B0"
+  },
+  "root_mean_square": {
+    "name": "均方根",
+    "desc": "均方根是一组数据平方和与数据个数的比值的算术平方根。用于衡量数据集的大小。",
+    "url": "https://baike.baidu.com/item/%E5%9D%87%E6%96%B9%E6%A0%B9"
+  },
+  "sample_skewness": {
+    "name": "样本偏度",
+    "desc": "样本偏度是样本各数据与样本均值之差的三次方和的平均数的三分之一次方。衡量数据分布的不对称程度。",
+    "url": "https://baike.baidu.com/item/%E6%A0%B7%E6%9C%AC%E5%81%8F%E5%BA%A6"
+  },
+  "sample_kurtosis": {
+    "name": "样本峰度",
+    "desc": "样本峰度是样本各数据与样本均值之差的四次方和的平均数与样本方差的比值。反映数据分布的尖峭或扁平程度。",
+    "url": "https://baike.baidu.com/item/%E6%A0%B7%E6%9C%AC%E5%B3%B0%E5%BA%A6"
+  },
 
   "need_gt_zero": "需要大于0",
   "need_gte_one": "需要大于0"
